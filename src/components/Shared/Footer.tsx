@@ -17,14 +17,14 @@ const Footer = () => {
                     </div>
 
                     {/* Contact Info */}
-                    <div className='text-white'>
+                    <div className='text-white mb-8 md:mb-0'>
                         <h2 className='text-xl font-semibold mb-4'>Contact Info</h2>
                         <p className='flex items-center gap-1 mb-4'><LuMailOpen className=' w-5 h-5' /> Email: <a href='mailto:Neal@RennsportDetailers.com' className='text-[#F9F9F9]'>Neal@RennsportDetailers.com</a></p>
                         <p className='mb-2 flex items-center gap-1'><FiPhone className=' w-5 h-5' /> Phone: <a href='tel:+13170992237' className='text-[#F9F9F9]'>317-093-2237</a></p>
                     </div>
 
                     {/* Useful Links */}
-                    <div className='text-white'>
+                    <div className='text-white mb-8 md:mb-0'>
                         <h2 className='text-xl font-semibold mb-4'>Useful Links</h2>
                         <div className='flex flex-col gap-4'>
                             <Link href='/about' className='text-[#F9F9F9]'>About Us</Link>
@@ -51,7 +51,7 @@ const Footer = () => {
 
             {/* Footer Bottom */}
             <div className='text-white border-t border-[#7B7F8D] py-5'>
-                <p className='text-center text-[#7B7F8D]'>© Copyright 2024 Design By Sufiya Akter. All Rights Reserved.</p>
+                <p className='text-sm md:text-md text-center text-[#7B7F8D]'>© Copyright 2024 Design By Sufiya Akter. All Rights Reserved.</p>
             </div>
         </div>
     );

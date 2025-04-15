@@ -1,7 +1,7 @@
 
 const Service = () => {
     return (
-        <div>
+        <div className="background-gradient h-[100vh] ">
             This is the service page.
         </div>
     );
