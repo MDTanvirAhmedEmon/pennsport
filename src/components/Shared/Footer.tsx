@@ -51,7 +51,7 @@ const Footer = () => {
 
             {/* Footer Bottom */}
             <div className='text-white border-t border-[#7B7F8D] py-5'>
-                <p className='text-sm md:text-md text-center text-[#7B7F8D]'>© Copyright 2024 Design By Sufiya Akter. All Rights Reserved.</p>
+                <p className='text-sm md:text-md text-center text-[#7B7F8D]'>© Copyright 2024 Design By Rennsport. All Rights Reserved.</p>
             </div>
         </div>
     );
