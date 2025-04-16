@@ -32,22 +32,6 @@ const CardSection: React.FC = () => {
                 <p className=" text-xl xl:text-2xl absolute top-12 left-5">from last month</p>
                 <h2 className=" text-5xl xl:text-6xl font-bold  absolute bottom-5 xl:bottom-7 right-4 ">45B</h2>
             </div>
-
-            {/* Second Card */}
-            {/* <div className="w-1/3 px-6 py-20 rounded-2xl shadow-[5px_20px_15px_0px_rgba(0,0,0,0.1)] bg-[#f4f4f8]">
-                <div className="text-center">
-                    <h2 className="text-4xl font-bold mb-2">12Y+</h2>
-                    <p className="text-lg">Experience we have gained by working worldwide</p>
-                </div>
-            </div>
-
-            {/* Third Card */}
-            {/* <div className="w-1/3 px-6 py-20 rounded-2xl shadow-[5px_20px_15px_0px_rgba(0,0,0,0.1)] bg-[#f4f4f8]">
-                <div className="text-center">
-                    <h2 className="text-4xl font-bold mb-2">45B</h2>
-                    <p className="text-lg">Total revenue that generated from last month</p>
-                </div>
-            </div>  */}
         </div>
     );
 };
