@@ -1,6 +1,7 @@
 import Image from 'next/image';
 import logo from '../assets/logo.svg'
 import CardSection from '@/components/Home/CardSection';
+import Certification from '@/components/Home/Certification';
 
 const Home = () => {
 
@@ -20,6 +21,12 @@ const Home = () => {
 
       <div className=' md:container md:mx-auto px-3 md:px-0'>
         <CardSection></CardSection>
+      </div>
+
+      <div className=' md:container md:mx-auto px-3 md:px-0'>
+        <h2 className=' text-2xl md:text-4xl text-center font-bold text-[#333333]'>Trusted and Certified</h2>
+        {/* <CardSection></CardSection> */}
+        <Certification></Certification>
       </div>
 
     </>
